@@ -11,7 +11,7 @@ const bookSchema = new Schema({
     type: String,
     required: true,
   },
-  // saved book id from GoogleBooks
+  // Saved book id from GoogleBooks
   bookId: {
     type: String,
     required: true,
@@ -27,5 +27,6 @@ const bookSchema = new Schema({
     required: true,
   },
 });
+
 
 module.exports = bookSchema;
